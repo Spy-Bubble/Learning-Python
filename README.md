@@ -6,7 +6,7 @@ A collection of Python projects while learning from scratch, with a strong focus
 This repository follows a **bilingual experimental format**:
 
 - **File names** and **commit messages** → English
-- **Code comments** and **documentation** → Spanish
+- **Code comments** → Spanish
 
 This dual-language approach aims to bridge international collaboration while maintaining accessibility for Spanish-speaking developers.
 
