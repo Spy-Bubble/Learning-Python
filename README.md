@@ -17,14 +17,6 @@ This dual-language approach aims to bridge international collaboration while mai
 - **Clean code** practices
 - **Progressive complexity** from basics to advanced topics
 
-## Repository Structure
-
-Each project includes comprehensive Spanish comments explaining:
-
-- Code logic and functionality
-- OOP principles implementation  
-- Best practices and design patterns
-
 ---
 
 > *Learning Python one project at a time | Aprendiendo Python un proyecto a la vez*
