@@ -1,15 +1,15 @@
 # Las variables son contenedores que almacenan datos en la memoria
 
-# Existen 4 partes de una variable: 
-# 1. Tipo de dato (identificador)
-# 2. Nombre de la variable
-# 3. Operador de asignación (=)
-# 4. Valor o dato que se almacena
+# 1. Existen 4 partes de una variable: 
 dinero = 100
-# 1.int  2.dinero  3.=  4.100
+# Tipo de dato                 (int)
+# Nombre de la variable        (dinero)
+# Operador de asignación       (=) 
+# Valor o dato que se almacena (100)
+
 # Python usa tipado dinámico (No es necesario especificar el tipo de dato)
 
-# Los tipos de datos más comunes son:
+# 2. Los tipos de datos más comunes son:
 # int (enteros) 
 dinero = 100
 # float (decimales) 
@@ -25,18 +25,19 @@ persona = {'nombre': 'Ana', 'edad': 25}
 # set (conjuntos) 
 numeros = {1, 2, 3, 4, 5}
 
-# Nomenclatura de variables
-# 1. Deben comenzar con una letra o un guion bajo (_)
-# 2. No pueden contener espacios (usar guion bajo para separar palabras)
-# 3. No pueden contener caracteres especiales (%, $, &, etc.)
-# 4. No pueden ser palabras reservadas (if, else, while, for, etc.)
-# 5. Son sensibles a mayúsculas y minúsculas (edad, Edad y EDAD son diferentes)
+# 3. Nomenclatura de variables
+# Deben comenzar con una letra o un guion bajo (_)
+# No pueden contener espacios (usar guion bajo para separar palabras)
+# No pueden contener caracteres especiales (%, $, &, etc.)
+# No pueden ser palabras reservadas (if, else, while, for, etc.)
+# Son sensibles a mayúsculas y minúsculas (edad, Edad y EDAD son diferentes)
 
-# Inicializar variables
+# 4. Inicializar variables
 # "None" es un valor especial que indica la ausencia de valor
 valor = None 
 
-# Inicializar variables con tipo de dato 
+# 5. Inicializar variables con tipo de dato 
+# Se usa cuando se quiere asegurar que la variable es de un tipo específico
 numero = int()       # Inicializa con 0
 decimal = float()    # Inicializa con 0.0
 cadena = str()       # Inicializa con ''
@@ -45,21 +46,21 @@ lista = list()       # Inicializa con []
 diccionario = dict() # Inicializa con {}
 conjunto = set()     # Inicializa con set()
 
-# Asignación múltiple de variables
+# 6. Asignación múltiple de variables
 a, b, c = 1, 2, 3
 # a = 1, b = 2, c = 3
 
-# Intercambio de valores entre variables
+# 7. Intercambio de valores entre variables
 x = 5
 y = 10
 # Intercambiar valores
 x, y = y, x
 # Ahora x = 10 y y = 5
 
-# Imprimir variables
+# 8. Imprimir variables
 print(dinero)        # Imprime el valor de la variable dinero
 
-# Reasignar valores a variables
+# 9. Reasignar valores a variables
 dinero = 200        # Ahora dinero vale 200 en lugar de 100
 print(dinero)       # Imprime el nuevo valor de la variable dinero
 
